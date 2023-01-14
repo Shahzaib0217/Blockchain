@@ -117,4 +117,6 @@ randNonce++;
 uint random2 = uint(keccak256(abi.encodePacked(now, msg.sender, randNonce))) % 100;
 
 better generate random numbers using oracles
+
+https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract
  */
